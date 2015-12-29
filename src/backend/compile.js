@@ -71,16 +71,16 @@ const toHtml = function(debug, filepath){
 
 const htmlDocument = function(title, content){
     const template = `
-        <html>
-            <head>
-                <meta charset="UTF-8"></meta>
-                <title>${title}</title>
-                <style></style>
-            </head>
-            <body>
-                ${content}
-            </body>
-        </html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>${title}</title>
+        <style></style>
+    </head>
+    <body>
+        ${content}
+    </body>
+</html>
     `;
 
     return template;
